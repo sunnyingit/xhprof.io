@@ -50,7 +50,7 @@ if (!isset($config['url_base'], $config['pdo'])) {
 }
 
 if (!isset($config['url_static'])) {
-	$config['url_static'] = $config['url_base'] . 'public/';
+	$config['url_static'] = $config['url_base'] . '/public/';
 }
 
 define('BASE_URL', $config['url_base']);
