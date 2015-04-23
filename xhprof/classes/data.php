@@ -257,7 +257,7 @@ class Data
 			
 			$sth1->execute();
 			
-			if(count($call) == 1)
+			if(count($call) == 2)
 		    {
 		    	$call_id	= $this->db->lastInsertId();
 		    
